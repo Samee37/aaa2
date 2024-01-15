@@ -1,0 +1,51 @@
+body {
+    font-family: 'Mulish', sans-serif;
+}
+
+.herot {
+    display: flex;
+    align-items: center;
+
+}
+
+.lii>ul {
+    display: flex;
+}
+
+.ulc {
+    list-style: none;
+
+}
+
+.ulc li a {
+    text-decoration: none;
+}
+.nclass {
+    margin-right: 30px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.thead{
+    color: #131318;
+font-size: 36px;
+font-weight: 800;
+
+}
+.org, .nclass1 {
+    color: #FF5400;
+
+}
+.hero{
+    height: 40px;
+}
+
+.bg{
+    background-image: url('/Images/Group\ 13\ \(1\)\ \(1\).png');
+    background-repeat: no-repeat;
+    height: 500px;
+    margin-left: 70px;
+    border-radius: 16px;
+}
