@@ -467,16 +467,19 @@ nav {
         flex-direction: column;
         height: auto;
         margin: 20px;
+        width: 600px;
     }
     .why1, .why2{
         padding: 30px;
+        width: 600px;
     }
     .why3{
         padding: 30px;
         margin: 20px;
+        width: 600px;
     }
     .bor{
-        width: 500px;
+        width: 600px;
         padding-left: 60px;
     }
     .gap4{
@@ -513,7 +516,7 @@ nav {
         width: 388px;
     }
     .foot{
-        width: auto;
+        width: 600px;
     }
     .ggg, .dfg {
         margin: 0 80px;
