@@ -166,6 +166,7 @@ nav {
     align-items: center;
     font-size: 40px;
     font-weight: 800;
+    margin-top: 80px;
 }
 
 .dot1 {
@@ -178,10 +179,11 @@ nav {
     margin-bottom: 30px;
 }
 
-#hhh {
+.one {
     height: 300px;
     width: 550px;
 }
+
 
 .img1 {
     display: flex;
@@ -189,12 +191,47 @@ nav {
     align-items: center;
     margin-left: 120px;
     margin-bottom: 24px;
+    height: 300px;
+    width: 550px;
 }
 
 .img2 {
     margin-left: 120px;
     display: flex;
     gap: 24px;
+    margin-bottom: 24px;
+}
+
+#two {
+    height: 285px;
+    width: 320px;
+}
+
+#three {
+    height: 285px;
+    width: 420px;
+}
+
+#four {
+    height: 285px;
+    width: 220px;
+}
+
+.img3 {
+    margin-left: 120px;
+    display: flex;
+    gap: 24px;
+    margin-bottom: 24px;
+}
+
+#five {
+    height: 300px;
+    width: 420px;
+}
+
+#six {
+    height: 300px;
+    width: 620px;
 }
 
 .nev {
@@ -219,6 +256,8 @@ nav {
     color: #5A5A5D;
     font-size: 16px;
     font-weight: 400;
+    margin-right: 70px;
+    margin-bottom: 25px;
 }
 
 .why3 {
@@ -249,7 +288,8 @@ nav {
     color: rgba(19, 19, 24, 0.30);
     font-size: 16px;
     font-weight: 400;
-    margin: 30px 0;
+    margin-bottom: 25px;
+    margin-right: 50px;
 }
 
 #fff {
@@ -263,6 +303,7 @@ nav {
     font-family: Mulish;
     font-size: 20px;
     font-weight: 800;
+    margin-bottom: 25px;
 
 }
 
@@ -270,6 +311,18 @@ nav {
     display: flex;
     align-items: center;
     margin: 30px 100px 0 100px;
+    gap: 24px;
+    justify-content: space-around;
+    
+}
+.bor{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-left: 25px;
+}
+#lkj{
+    height: 380px;
+    width: 700px;
 }
 
 .com {
@@ -296,11 +349,14 @@ nav {
     background: #FF5400;
     position: relative;
     margin-top: -200px;
-    margin-left: 335px;
+    margin-left: 360px;
 }
 
 .newsletter {
     margin-bottom: 100px;
+    margin-top: 70px;
+   
+
 }
 
 .foot {
@@ -334,8 +390,8 @@ nav {
 }
 
 .dfg {
-   margin-left: 580px;
-   margin-top: 80px;
+    margin-left: 580px;
+    margin-top: 80px;
     color: #131318;
     font-family: Inter;
     font-size: 16px;
