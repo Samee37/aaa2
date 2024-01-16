@@ -81,6 +81,7 @@ nav {
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
+    border: none;
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
@@ -93,6 +94,7 @@ nav {
     height: 52px;
     flex-shrink: 0;
     border-radius: 8px;
+    border: none;
     background: #FF5400;
     color: white;
     text-align: center;
@@ -109,6 +111,7 @@ nav {
     gap: 24px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
+    border: none;
 }
 
 .popular {
@@ -320,7 +323,7 @@ nav {
     border: 1px solid #FF5400;
     padding-left: 25px;
 }
-#lkj{
+.lkj{
     height: 380px;
     width: 700px;
 }
@@ -403,17 +406,51 @@ nav {
 
 @media screen and (max-width: 600px) {
     nav{
-        flex-direction: column;
+        flex-direction: column;  
+    }
+    .bg{
+        width: 600px;
+        margin: 10px;
+        border-radius: 16px;
+    }
+    .explor {
+        font-size: 22px;
+        padding: 40px 0 0 180px;
+        color: blue;
+    }
+    .pera {
+        font-size: 14px;
+        text-align: center;
+        margin: 5px 30px;
+        padding: 0;
+        color: blue;
         
     }
+    .gappp{
+        flex-direction: column;
+    }
+    .gap {
+        width: 380px;
+        height: 52px;
+        margin: 0;
+    }
+    
+    .find {
+        width: 380px;
+        height: 52px;
+        margin: 0;
+    
+    }
+
     .img1, .img2, .img3{
         flex-direction: column;
         height: auto;
-        margin: 0 0 24px 0;
+        margin: 10px;
+    
     }
-    .one, .two, .three, .four, .five, .six, .kkk {
-        width: 600px;
-        height: auto;
+    .one, .two, .three, .four, .five, .six, .kkk, .lkj {
+        width: 550px;
+        height: 300px;
     }
     .mount{
         flex-direction: column;
@@ -424,7 +461,7 @@ nav {
     .popu, .dot1{
         margin: 35px;
     }
-    .nev{
+    .nev, .flux{
         flex-direction: column;
         height: auto;
         margin: 20px;
@@ -435,5 +472,50 @@ nav {
     .why3{
         padding: 30px;
         margin: 20px;
+    }
+    .bor{
+        width: 500px;
+        padding-left: 60px;
+    }
+    .gap4{
+        width: 388px;
+        border: none;
+    }
+    
+    .box {
+        width: 200px;
+        height: 80px;
+        transform: rotate(-19.628deg);
+        flex-shrink: 0;
+        border-radius: 16px;
+        background: #FF5400;
+        position: relative;
+        margin-top: -135px;
+        margin-left: 345px;
+    }
+    .com {
+        color: #FFF;
+        text-align: center;
+        font-size: 15px;
+        font-weight: 400;
+        padding-top: 20px;
+    }
+    
+    .save {
+        color: #FFF;
+        font-size: 21px;
+        font-weight: 800;
+        text-align: center;
+    }
+    #fff{
+        width: 388px;
+    }
+    .foot{
+        width: auto;
+    }
+    .ggg, .dfg {
+        margin: 0 80px;
+        align-items: center;
+        text-align: center;
     }
 }
